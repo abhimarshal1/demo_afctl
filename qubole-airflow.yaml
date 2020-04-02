@@ -1,0 +1,6 @@
+steps:
+  scripts:
+    - 'python yo.py'
+    - 'python setup.py'
+  sync-directory:
+    dags: 'final_dags'
