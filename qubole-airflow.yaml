@@ -1,6 +1,5 @@
 steps:
   scripts:
-    - 'python yo.py'
-    - 'python setup.py'
+    - 'sudo monit restart webserver'
   sync-directory:
     dags: 'final_dags'
