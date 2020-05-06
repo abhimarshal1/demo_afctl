@@ -2,4 +2,4 @@ steps:
   scripts:
     - 'sudo monit restart webserver'
   sync-directory:
-    dags: 'final_dags'
+    dags: 'deployments'
